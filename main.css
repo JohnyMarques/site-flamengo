@@ -4,76 +4,117 @@
     box-sizing: border-box;
 }
 
+/*FONTE DO MENU*/
 header,
 section{
     font-family: "Bungee", cursive;
 }
+/*FONTE DO TEXTO*/
 body{
     font-family: "Roboto",sans-serif;
 
 }
+
+/*DA COR AO CABEÇARIO E AS LETRAS (E O ESPAÇAMENTO)*/
 
 header{
     padding: 16px;
     background-color: rgb(0, 0, 0);
     color: rgb(218, 23, 23);
 }
+
+/* DEIXA TUDO NA MESMA LINHA, COM UM ESPAÇAMENTO A ESQUEDA, MUDA A COR E O TAMANHO DA FONTE DO MENU*/
 header nav li{
     display: inline;
     margin-left: 16px;
     color: rgb(17, 16, 16);
     font-size: 18px;
 }
+
+/*MUDA A COR DOS MENUS*/
 header nav li a{
     color: rgb(218, 23, 23);
     text-decoration: none;
     
 }
-
+/* ESTÁ DEIXANDO O TEXTO "SOBRE O FLAMENGO" ALINHADO*/
 .container{
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
 }
 
-header .container,
-section .container{
-    display: flex;
+/* NO HEADER, ESTÁ ALINHANDO AS INFORMAÇÕES DO A HREF E NAS NOTICIAS */
+header .container{
+
+    display:flex;
     align-items: center;
     justify-content: space-between;
 }
+
+/* muda a cor das letras */
 
 section{
     color: aliceblue;
 }
 
-section .container{
-    align-items: flex-start;
-}
 
+
+/* SERVE PARA FAZER O AFASTAMENTO DAS LINHAS */
 section h2{
     margin-bottom: 10px;
     padding: 10px;
 }
+
+/*ESTA DEIXANDO O PRIMEIRO TEXTO ALINHADO AO TÍTULO*/
+
 section p{
-    margin-left: 10px;
+    padding: 10px;
     text-align: justify;
 
 }
-section img{
-    height: 600px;
-    margin-bottom: 10px;
-    border: none;
-    width: 800px; 
-    height: 400px;
-}
-section id{
-    align-items: flex-start;
+
+section ul{
+    padding: 40px;
+    max-width: 50%;
+    text-align: justify;
 }
 
+ /*ESTÁ PARTE É REFERENTE AO BACKGROUND GERAL DA PAGE */
 body{
     background-size: cover;
     background-repeat: no-repeat;
     
 }
+
+/*TENTANDO DESCOBRIR AINDA*/
+section .noticia{
+    display: flex;
+   
+}
+   
+section .container img{
+    
+        width: 1300px;
+        height: 600px;
+        margin-left: 9%;
+}
+
+   /*ESTÁ PARTE É REFERENTE IMAGEM DOS LESIONMADOS */
+section .noticia img{
+
+        width: 700px;
+        height: 500px;
+
+}
+
+/* Este serve para alinhar o texto dos lesionados na parte de cima*/
+
+section .noticia{
+    align-items: flex-start;
+}   
+
+
+
+
 
