@@ -6,7 +6,9 @@
 
 /*FONTE DO MENU*/
 header,
-section{
+section,
+button,
+footer{
     font-family: "Bungee", cursive;
 }
 /*FONTE DO TEXTO*/
@@ -111,10 +113,109 @@ section .noticia img{
 /* Este serve para alinhar o texto dos lesionados na parte de cima*/
 
 section .noticia{
-    align-items: flex-start;
+    align-items:flex-start;
 }   
 
+/*Esta parte serve para colocar os jogadores*/
+
+.jogadores {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 60px rgba(219, 9, 9, 0.938);
+}
+h1 {
+    text-align: center;
+    color: #e4002b;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #0f0f0f;
+    text-align: left;
+}
+th {
+    background-color: #e4002b;
+    color: rgb(22, 21, 21);
+}
+tr:nth-child(even) {
+    background-color: #161414;
+}
 
 
+form input,
+form textarea,
+form button{
+display: block;
+width: 400px;
+margin: 10px;
+padding:8px;
+margin-left: 50px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button:hover{
+    background-color: #d40f0f;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(230, 223, 223, 0.938);
+    cursor: pointer;
+}
+input:focus, textarea:focus{
+    outline-color: #d40f0f;
+}
 
+.social-links img{
+    height: 24px;
+    
+    }
+    #Contato .certo{
+        display: block;
+    }
+    .social-links li{
+        display: inline;
+        margin-right: 8px;
 
+    }
+    .social-links li a{
+        text-decoration: none;
+        ;
+    }
+
+    #contato .certo{
+        display: block;
+    }
+
+    .contato-metodo{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contato-metodo h3{
+        margin-left: 50px;
+    }
+    .certo h2{
+        margin-left: 40px;
+    }
+    .ajustar h3{
+        margin-right: 300px;
+        
+    }
+    .ajustar img{
+        
+        margin-left: 10px;
+        margin-bottom:  200%;
+    }
+ 
+    footer{
+        background-color: #d40f0f;
+        color: rgb(8, 8, 8);
+        padding: 16px 0;
+    }
