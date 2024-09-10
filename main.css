@@ -205,12 +205,12 @@ input:focus, textarea:focus{
         margin-left: 40px;
     }
     .ajustar h3{
-        margin-right: 300px;
+        display: inline;
+        margin-right: 400px;
         
     }
     .ajustar img{
         
-        margin-left: 10px;
         margin-bottom:  200%;
     }
  
